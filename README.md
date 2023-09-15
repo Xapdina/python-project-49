@@ -4,3 +4,6 @@
 add brain_games.py
 fix pyproject.toml
 add scripts run poetry brain-games
+add Makefile
+add .gitignore
+
