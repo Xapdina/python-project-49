@@ -3,5 +3,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/f237d043ef06a85d9bdb/maintainability)](https://codeclimate.com/github/Xapdina/python-project-49/maintainability)
 
-https://asciinema.org/a/eQrkgzwrjMNPBnjgEhcOtu7mY
+Brain-even games\
+https://asciinema.org/a/eQrkgzwrjMNPBnjgEhcOtu7mY \
+\
+Brain-calc games\
 https://asciinema.org/a/pgl6BnjJVOgTNYjmeafc6MrZ1

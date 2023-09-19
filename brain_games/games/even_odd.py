@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-from random import randint, choice
-from operator import add, sub, mul
+from random import randint
 
 TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
