@@ -11,6 +11,7 @@ def prime(random_num):
     for i in range(2, (random_num // 2 + 1)):
         if random_num % i == 0:
             return 'no'
+    else:
         return 'yes'
 
 
