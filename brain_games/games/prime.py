@@ -15,7 +15,6 @@ def prime(random_num):
         return 'yes'
 
 
-
 def question_and_answer():
     random_num = randint(0, 21)
     correct_answer = prime(random_num)
