@@ -7,4 +7,11 @@ Brain-even games\
 https://asciinema.org/a/eQrkgzwrjMNPBnjgEhcOtu7mY \
 \
 Brain-calc games\
-https://asciinema.org/a/pgl6BnjJVOgTNYjmeafc6MrZ1
+https://asciinema.org/a/pgl6BnjJVOgTNYjmeafc6MrZ1 \
+
+Brain-gcd games\
+
+https://asciinema.org/a/qT8Z9gVLOShUimmY5XFvpCvA1 \
+
+Brain-progression games\
+https://asciinema.org/a/xWqNWOQhWVD3hsrCSybB1pbiS
