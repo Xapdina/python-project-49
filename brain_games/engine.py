@@ -22,7 +22,7 @@ def engine_games(games):
         if correct_answer != player_answer:
             print(f"'{player_answer}' is wrong answer ;(.\n"
                   f"Correct answer was '{correct_answer}'.\n"
-                  f"Let's try again, {name} !")
+                  f"Let's try again, {name}!")
             break
     else:
         print(f'Congratulations, {name}!')
