@@ -17,6 +17,7 @@ def engine_games(games):
         question, correct_answer = games.question_and_answer()
         print(f'Question: {question}')
         player_answer = string('Your answer: ')
+        print('Correct!')
         count_round += 1
         if correct_answer != player_answer:
             print(f"'{player_answer}' is wrong answer ;(.\n"
