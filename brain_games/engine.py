@@ -25,4 +25,4 @@ def engine_games(games):
                   f"Let's try again, {name} !")
             break
     else:
-        print(f'Congratulation, {name}!')
+        print(f'Congratulations, {name}!')
