@@ -6,7 +6,7 @@ TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def question_and_answer():
-    random_num = randint(1, 10)
+    random_num = randint(1, 100)
     if random_num % 2 == 0:
         correct_answer = 'yes'
     else:
