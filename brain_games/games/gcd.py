@@ -7,7 +7,8 @@ from brain_games.const import TASK
 
 
 def is_math_action():
-    first_random_num, second_random_num = generator_random_num(), generator_random_num()
+    first_random_num, second_random_num = (generator_random_num(),
+                                           generator_random_num())
     correct_answer = gcd(first_random_num, second_random_num)
     question = f'{first_random_num} {second_random_num}'
     return question, str(correct_answer)

@@ -17,7 +17,8 @@ def choice_operator():
 
 
 def is_math_action():
-    first_random_num, second_random_num = generator_random_num(), generator_random_num()
+    first_random_num, second_random_num = (generator_random_num(),
+                                           generator_random_num())
     operation, operator = choice_operator()
     correct_answer = operation(first_random_num, second_random_num)
     question = f'{first_random_num} {operator} {second_random_num}'
