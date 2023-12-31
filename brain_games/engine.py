@@ -1,24 +1,19 @@
-#!/usr/bin/env python3
-
-from prompt import string
-
-MAX_ROUND = 3
+import prompt
+from brain_games.const import MAX_ROUND
 
 
-def engine_games(games):
-    print('Welcome to the Brain Games')
-    name = string('May I have your name? ')
-    print(f'Hello, {name}!')
-    print(games.TASK)
+def is_engine_games(games, task):
+    name = prompt.string(
+        'Welcome to the Brain Games!\n'
+        'May I have your name? ')
+    print(f'Hello, {name}!\n'
+          f'{task}')
 
-    count_round = 0
-
-    while count_round < MAX_ROUND:
-        question, correct_answer = games.question_and_answer()
+    for count_round in range(MAX_ROUND):
+        question, correct_answer = games()
         print(f'Question: {question}')
-        player_answer = string('Your answer: ')
+        player_answer = prompt.string('Your answer: ')
         print('Correct!')
-        count_round += 1
         if correct_answer != player_answer:
             print(f"'{player_answer}' is wrong answer ;(.\n"
                   f"Correct answer was '{correct_answer}'.\n"

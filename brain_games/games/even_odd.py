@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 
-from random import randint
+from brain_games.randomizer import generator_random_num
+from brain_games.engine import is_engine_games
+from brain_games.const import TASK
 
-TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-
-def question_and_answer():
-    random_num = randint(1, 100)
-    if random_num % 2 == 0:
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
-    question = f'{random_num}'
+def is_math_action():
+    random_num = generator_random_num()
+    correct_answer = 'yes' if random_num % 2 == 0 else 'no'
+    question = random_num
     return question, str(correct_answer)
+
+
+def is_run_even_odd():
+    is_engine_games(is_math_action, TASK['even_odd'])
