@@ -57,7 +57,7 @@ If you lose, you can try again.
 
 ### How it's work
 
-##### [Installation]([![asciicast](https://asciinema.org/a/LuskGncH1bd0QG9stWBisoJyI.svg)](https://asciinema.org/a/LuskGncH1bd0QG9stWBisoJyI))
+##### [Installation]([<img alt="asciicast" src="https://asciinema.org/a/LuskGncH1bd0QG9stWBisoJyI.svg"/>](https://asciinema.org/a/LuskGncH1bd0QG9stWBisoJyI)) 
 
 ##### [Brain-even games]([![asciicast](https://asciinema.org/a/gDQ2dWYcF5y3WoF6gSPjiuc7U.svg)](https://asciinema.org/a/gDQ2dWYcF5y3WoF6gSPjiuc7U))
 
