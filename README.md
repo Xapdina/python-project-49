@@ -57,14 +57,20 @@ If you lose, you can try again.
 
 ### How it's work
 
-##### [Installation][<img alt="asciicast" src="https://asciinema.org/a/LuskGncH1bd0QG9stWBisoJyI.svg"/>](https://asciinema.org/a/LuskGncH1bd0QG9stWBisoJyI)
+##### [Installation]
+[![asciicast](https://asciinema.org/a/LuskGncH1bd0QG9stWBisoJyI.svg)](https://asciinema.org/a/LuskGncH1bd0QG9stWBisoJyI)
 
-##### [Brain-even games][![asciicast](https://asciinema.org/a/gDQ2dWYcF5y3WoF6gSPjiuc7U.svg)](https://asciinema.org/a/gDQ2dWYcF5y3WoF6gSPjiuc7U)
+##### [Brain-even games]
+[![asciicast](https://asciinema.org/a/gDQ2dWYcF5y3WoF6gSPjiuc7U.svg)](https://asciinema.org/a/gDQ2dWYcF5y3WoF6gSPjiuc7U)
 
-##### [Brain-calc games]([![asciicast](https://asciinema.org/a/ag4N6VqdElQXsvZY1O2QKaBLQ.svg)](https://asciinema.org/a/ag4N6VqdElQXsvZY1O2QKaBLQ))
+##### [Brain-calc games]
+[![asciicast](https://asciinema.org/a/ag4N6VqdElQXsvZY1O2QKaBLQ.svg)](https://asciinema.org/a/ag4N6VqdElQXsvZY1O2QKaBLQ)
 
-##### [Brain-gcd games]([![asciicast](https://asciinema.org/a/KDieL8qgcqE60Tf8ImqSR0iOL.svg)](https://asciinema.org/a/KDieL8qgcqE60Tf8ImqSR0iOL))
+##### [Brain-gcd games]
+[![asciicast](https://asciinema.org/a/KDieL8qgcqE60Tf8ImqSR0iOL.svg)](https://asciinema.org/a/KDieL8qgcqE60Tf8ImqSR0iOL)
 
-##### [Brain-pg games]([![asciicast](https://asciinema.org/a/VBnVhnhwSB1p7IGAMzZ3Qtarc.svg)](https://asciinema.org/a/VBnVhnhwSB1p7IGAMzZ3Qtarc))
+##### [Brain-pg games]
+[![asciicast](https://asciinema.org/a/VBnVhnhwSB1p7IGAMzZ3Qtarc.svg)](https://asciinema.org/a/VBnVhnhwSB1p7IGAMzZ3Qtarc)
 
-##### [Brain-prime games]([![asciicast](https://asciinema.org/a/hA6Nd2y8Touoc8C0TN1kd0ghp.svg)](https://asciinema.org/a/hA6Nd2y8Touoc8C0TN1kd0ghp))
+##### [Brain-prime games]
+[![asciicast](https://asciinema.org/a/hA6Nd2y8Touoc8C0TN1kd0ghp.svg)](https://asciinema.org/a/hA6Nd2y8Touoc8C0TN1kd0ghp)
