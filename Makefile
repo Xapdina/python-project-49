@@ -25,11 +25,8 @@ brain-calc:
 brain-gcd:
 	poetry run brain-gcd
 
-brain-progression:
+brain-pg:
 	poetry run brain-pg
 
 brain-prime:
 	poetry run brain-prime
-
-uninstall:
-	poetry uninstall requests

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from brain_games.games.pg import launch_progression
+from brain_games.games.pg import launch_pg
 
 
 def main():
-    launch_progression()
+    launch_pg()
 
 
 if __name__ == '__main__':
