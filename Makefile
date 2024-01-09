@@ -8,7 +8,7 @@ publish:
 	poetry publish --dry-run
 
 package-install:
-	python3 -m pip install --user --force-reinstall dist/*.whl --no-warn-script-location
+	python3 -m pip install --user dist/*.whl
 
 lint:
 	poetry run flake8 brain_games
@@ -26,7 +26,10 @@ brain-gcd:
 	poetry run brain-gcd
 
 brain-progression:
-	poetry run brain-progression
+	poetry run brain-pg
 
 brain-prime:
 	poetry run brain-prime
+
+remove:
+	poetry remove

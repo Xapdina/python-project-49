@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 
-from brain_games.randomizer import generator_random_num
-from brain_games.engine import is_engine_games
-from brain_games.const import TASK
+from brain_games.utils import get_rand_num
+from brain_games.engine import get_question_and_answer
+from brain_games.const import GAME_INSTRUCTIONS
 
 
-def is_math_action():
-    random_num = generator_random_num()
-    correct_answer = 'yes' if random_num % 2 == 0 else 'no'
-    question = random_num
-    return question, str(correct_answer)
+def get_num_and_even_odd():
+    num = get_rand_num()
+    even_odd = 'yes' if num % 2 == 0 else 'no'
+    return num, str(even_odd)
 
 
-def is_run_even_odd():
-    is_engine_games(is_math_action, TASK['even_odd'])
+def launch_even_odd():
+    get_question_and_answer(get_num_and_even_odd, GAME_INSTRUCTIONS['even_odd'])

@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 
-from math import gcd
-from brain_games.randomizer import generator_random_num
-from brain_games.engine import is_engine_games
-from brain_games.const import TASK
+import math
+from brain_games.utils import get_rand_num
+from brain_games.engine import get_question_and_answer
+from brain_games.const import GAME_INSTRUCTIONS
 
 
-def is_math_action():
-    first_random_num, second_random_num = (generator_random_num(),
-                                           generator_random_num())
-    correct_answer = gcd(first_random_num, second_random_num)
-    question = f'{first_random_num} {second_random_num}'
-    return question, str(correct_answer)
+def get_nums_pair_and_gcd():
+    num1, num2 = (get_rand_num(), get_rand_num())
+    gcd = math.gcd(num1, num2)
+    nums_pair = f'{num1} {num2}'
+    return nums_pair, str(gcd)
 
 
-def is_run_gcd():
-    is_engine_games(is_math_action, TASK['gcd'])
+def launch_gcd():
+    get_question_and_answer(get_nums_pair_and_gcd, GAME_INSTRUCTIONS['gcd'])
