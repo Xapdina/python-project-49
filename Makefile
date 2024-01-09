@@ -31,5 +31,5 @@ brain-progression:
 brain-prime:
 	poetry run brain-prime
 
-remove:
-	poetry remove
+uninstall:
+	poetry uninstall requests
