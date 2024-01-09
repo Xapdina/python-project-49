@@ -53,7 +53,6 @@ If you lose, you can try again.
 |    `make brain-gcd`    |      You need to determine the greatest divisor.       |
 |    `make brain-pg`     |       You need to continue arithmetic progress.        |
 |   `make brain-prime`   |         You need to determine a prime number.          |
-|   `make unins]tall`    |                    Uninstall game.                     |
 
 
 ### How it's work
