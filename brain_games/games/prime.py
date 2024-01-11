@@ -4,7 +4,9 @@ from brain_games.const import QUESTIONS
 
 
 def is_prime(num):
-    return 'no' if num <= 1 or any(num % i == 0 for i in range(2, (num // 2 + 1))) else 'yes'
+    return 'no' if num <= 1 or any(
+        num % i == 0 for i in range(2, (num // 2 + 1))
+    ) else 'yes'
 
 
 def get_num_and_prime_ans():
