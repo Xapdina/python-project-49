@@ -2,22 +2,23 @@ import prompt
 from brain_games.const import MAX_ROUND
 
 
-def get_question_and_answer(game, task):
+def run_game(game_instructions, get_question_and_answer):
     player_name = prompt.string('Welcome to the Brain Games!\n'
                                 'May I have your name? ')
     print(f'Hello, {player_name}!\n'
-          f'{task}')
+          f'{get_question_and_answer}')
 
     for _ in range(MAX_ROUND):
-        question, correct_answer = game()
-        print(f'Question: {question}')
-        player_answer = prompt.string('Your answer: ')
+        question, correct_answer = game_instructions()
+        player_answer = prompt.string(f'Question: {question}\n'
+                                      f'Your answer: ')
 
         if player_answer == correct_answer:
             print('Correct!')
         else:
-            return print(f"'{player_answer}' is wrong answer ;(.\n"
-                         f"Correct answer was '{correct_answer}'.\n"
-                         f"Let's try again, {player_name}!")
+            print(f"'{player_answer}' is wrong answer ;(.\n"
+                  f"Correct answer was '{correct_answer}'.\n"
+                  f"Let's try again, {player_name}!")
+            return
 
     return print(f'Congratulations, {player_name}!')

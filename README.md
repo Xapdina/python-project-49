@@ -43,10 +43,10 @@ If you lose, you can try again.
 
 |        Command         |                      Description                       |
 |:----------------------:|:------------------------------------------------------:|
-|     `make install`     |                    Install Poetry.                     |
-|      `make build`      |                      Build game.                       |
+|     `make install`     |                 Install dependencies.                  |
+|      `make build`      |                  Build distribution.                   |
 |     `make publish`     |       Publication process simulation it to PyPI.       |
-| `make package-install` |                  Install all package.                  |
+| `make package-install` |                    Install package.                    |
 |      `make lint`       |                 Launching the Flake8.                  |
 |   `make brain-games`   | You need to determine whether a number is even or not. |
 |   `make brain-calc`    |             You need to solve an example.              |
