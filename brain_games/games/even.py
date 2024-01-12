@@ -1,6 +1,6 @@
 from brain_games.utils import get_rand_num
 from brain_games.engine import run_game
-from brain_games.const import QUESTIONS
+from brain_games.const import GAME_INSTRUCTIONS
 
 
 def get_num_and_even_ans():
@@ -9,5 +9,5 @@ def get_num_and_even_ans():
     return num, even_ans
 
 
-def run_even_odd():
-    run_game(get_num_and_even_ans, QUESTIONS['even_odd'])
+def run_even_odd_game():
+    run_game(get_num_and_even_ans, GAME_INSTRUCTIONS['even_odd'])

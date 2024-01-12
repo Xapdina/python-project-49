@@ -1,7 +1,7 @@
 import random
 from brain_games.utils import get_rand_num
 from brain_games.engine import run_game
-from brain_games.const import QUESTIONS, PROGRESSION_LENGTH
+from brain_games.const import GAME_INSTRUCTIONS, PROGRESSION_LENGTH
 
 
 def get_pg_and_missed_num():
@@ -13,9 +13,9 @@ def get_pg_and_missed_num():
     missed_index = random.randint(0, PROGRESSION_LENGTH - 1)
     missed_num = progression[missed_index]
     progression[missed_index] = '..'
-    pg = " ".join(map(str, progression))
+    pg = ' '.join(map(str, progression))
     return pg, str(missed_num)
 
 
-def run_pg():
-    run_game(get_pg_and_missed_num, QUESTIONS['pg'])
+def run_pg_game():
+    run_game(get_pg_and_missed_num, GAME_INSTRUCTIONS['pg'])
