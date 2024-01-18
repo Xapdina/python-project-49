@@ -17,5 +17,5 @@ def get_pg_and_missed_num():
     return pg, str(missed_num)
 
 
-def run_pg_game():
-    run_game(get_pg_and_missed_num, GAME_INSTRUCTIONS['pg'])
+def run_progression_game():
+    run_game(get_pg_and_missed_num, GAME_INSTRUCTIONS['progression'])

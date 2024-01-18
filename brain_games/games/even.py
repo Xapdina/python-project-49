@@ -9,5 +9,5 @@ def get_num_and_even_ans():
     return num, even_ans
 
 
-def run_even_odd_game():
+def run_even_game():
     run_game(get_num_and_even_ans, GAME_INSTRUCTIONS['even_odd'])

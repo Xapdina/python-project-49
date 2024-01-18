@@ -7,5 +7,5 @@ GAME_INSTRUCTIONS = {
     'even_odd': 'Answer "yes" if the number is even, otherwise answer "no".',
     'gcd': 'Find the greatest common divisor of given numbers.',
     'prime': 'Answer "yes" if given number is prime. Otherwise answer "no".',
-    'pg': 'What number is missing in the progression?'
+    'progression': 'What number is missing in the progression?'
 }

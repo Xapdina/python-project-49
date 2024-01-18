@@ -6,8 +6,8 @@ from brain_games.utils import get_rand_num
 
 def get_math_expression_and_res():
     num1, num2 = get_rand_num(), get_rand_num()
-    get_operator = random.choice(OPERATORS)
-    expression = f'{num1} {get_operator} {num2}'
+    operator = random.choice(OPERATORS)
+    expression = f'{num1} {operator} {num2}'
     calculation = eval(expression)
     return expression, str(calculation)
 

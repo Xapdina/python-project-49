@@ -2,11 +2,11 @@ import prompt
 from brain_games.const import MAX_ROUND
 
 
-def run_game(get_question_and_answer, game_instructions):
+def run_game(get_question_and_answer, game_instruction):
     player_name = prompt.string('Welcome to the Brain Games!\n'
                                 'May I have your name? ')
     print(f'Hello, {player_name}!\n'
-          f'{game_instructions}')
+          f'{game_instruction}')
 
     for _ in range(MAX_ROUND):
         question, correct_answer = get_question_and_answer()
